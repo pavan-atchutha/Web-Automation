@@ -22,53 +22,7 @@ public class Myclass {
         // Navigate to the MakeMyTrip railways page
        driver.get("https://www.makemytrip.com/railways/");
         
-//        
-//        WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(60));
-////        wait.until(ExpectedConditions.titleContains("IRCTC Train Booking"));
-//       // Thread.sleep(2000);
-//        
-//        // Verify the page title
-//        if (driver.getTitle().contains("IRCTC Train Booking")) {
-//            System.out.println("Landed on the correct page.");
-//        } else {
-//            System.out.println("Not on the expected page.");
-//        }
-//       
-//        // Print URL and Title
-//        System.out.println("Current URL: " + driver.getCurrentUrl());
-//        System.out.println("Current Title: " + driver.getTitle());
-//        Thread.sleep(5000);
-//        // Click on FROM
-//        WebElement fromField = driver.findElement(By.id("fromCity"));
-//        fromField.click();
-//        fromField.sendKeys("DELHI");
-//        Thread.sleep(5000);
-//        // Click on TO
-//        WebElement toField = driver.findElement(By.id("toCity"));
-//        toField.click();
-//        toField.sendKeys("LUCKNOW");
-//        Thread.sleep(5000);
-//        // Select Travel Date
-//        WebElement travelDate = driver.findElement(By.id("travelDate"));
-//        travelDate.click();
-//        WebElement date = driver.findElement(By.xpath("//div[text()='25']"));
-//        date.click();
-//
-//        Thread.sleep(5000);
-//        
-//        // Select Class
-//        WebElement classDropdown = driver.findElement(By.id("travelFor"));
-//        Select selectClass = new Select(classDropdown);
-//        selectClass.selectByVisibleText("Third AC");
-//
-//        // Click on SEARCH Button
-//        WebElement searchButton = driver.findElement(By.id("trainFormButton"));
-//        searchButton.click();
-//
-//        // Wait for results to load and perform further actions
-//
-//        // Close the browser
-//        driver.quit();
+
     // Check if the correct page has been loaded
        // Check if the correct page has been loaded
        String url = driver.getCurrentUrl();
